@@ -1,0 +1,23 @@
+!!! Strict
+%html{ "xml:lang" => "en", :lang => "en", :xmlns => "http://www.w3.org/1999/xhtml" }
+  %head
+    %meta{ :content => "text/html; charset=utf-8", "http-equiv" => "Content-Type" }
+    %title keithpitty.org
+    %link{ :href => "/stylesheets/master.css", :rel => "stylesheet", :type => "text/css", :media => "all", :charset => "utf-8" }
+  %body
+    .container
+      .header
+        %h1.logo
+          %a{ :href => "/", :title => "keithpitty.org" }
+            keithpitty.org
+      .text
+        = yield
+
+      .clear
+
+      .footer
+        %ul.horizontal
+          %li
+            \&copy; 
+            = @year 
+            Keith Pitty

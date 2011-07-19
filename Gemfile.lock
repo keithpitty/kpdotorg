@@ -1,0 +1,21 @@
+GEM
+  remote: http://rubygems.org/
+  specs:
+    RedCloth (4.2.7)
+    haml (3.1.2)
+    rack (1.3.1)
+    shotgun (0.9)
+      rack (>= 1.0)
+    sinatra (1.2.6)
+      rack (~> 1.1)
+      tilt (>= 1.2.2, < 2.0)
+    tilt (1.3.2)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  RedCloth
+  haml
+  shotgun
+  sinatra
