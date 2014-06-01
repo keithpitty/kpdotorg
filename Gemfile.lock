@@ -4,6 +4,8 @@ GEM
     RedCloth (4.2.9)
     haml (4.0.5)
       tilt
+    haml-contrib (1.0.0.1)
+      haml (>= 3.2.0.alpha.13)
     rack (1.5.2)
     rack-protection (1.5.3)
       rack
@@ -21,5 +23,6 @@ PLATFORMS
 DEPENDENCIES
   RedCloth (~> 4.2.9)
   haml (~> 4.0.5)
+  haml-contrib (~> 1.0.0.1)
   shotgun
   sinatra (~> 1.4.5)
