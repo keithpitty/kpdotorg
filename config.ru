@@ -1,6 +1,3 @@
-path = File.expand_path "../", __FILE__
-
-require 'sinatra'
-require "#{path}/kpdotorg"
+require "./kpdotorg"
 
 run Sinatra::Application
